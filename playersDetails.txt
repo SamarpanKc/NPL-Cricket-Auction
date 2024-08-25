@@ -1,0 +1,33 @@
+TEAM
+1. Aasif Sheikh
+	Position: Wicket-keeper batsman
+	Batting style: Right-handed
+	Born: June 22, 2001
+2. Kushal Bhurtel
+	Position: Top-order batsman
+	Batting style: Right-handed
+	Bowling style: Right-arm leg break
+	Born: January 22, 1997
+3. Kushal Malla
+	Position: All-rounder
+	Batting style: Right-handed
+	Bowling style: Right-arm off-spin
+	Born: March 5, 2004
+4. Dipendra Singh Airee
+	Position: All-Rounder
+	Batting style: Right arm Offbreak
+	Born: 2000 August 12
+5. Karan K.C.
+	Position: Bowler
+	Bowling style: Right-arm fast-medium
+	Born: October 10, 1991
+6. Gulsan Jha
+	Born: Feb 17, 2006 (18 years)
+	Role: All-roundeBatting Style: Left Handed
+	Bowling Style: Right Arm Medium Seam
+	Born: Feb 17, 2006
+7. Sandeep Lamichhane
+	Born: Aug 2, 2000
+	Role: Bowler
+	Batting Style: Right Handed
+	Bowling Style: Right Arm Leg Spin
