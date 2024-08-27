@@ -242,3 +242,24 @@ body::-webkit-scrollbar {
   font-size: 24px;
   font-style: italic;
 }
+.topTxt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 6.5vw;
+  margin-bottom: 20px; /* Adds spacing below */
+  padding: 10px 20px;
+}
+.topTxt a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #0e0e54;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.topTxt a:hover {
+  color: #e50914; /* Changes color on hover */
+  transform: translateX(5px); /* Adds slight movement on hover */
+}
