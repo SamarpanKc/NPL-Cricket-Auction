@@ -51,7 +51,7 @@ body::-webkit-scrollbar {
 /* Icon styles */
 .head .top .icon {
     position: absolute; /* Allows it to stay at the start of the container */
-    left: -20px; /* Positions it on the left side */
+    left: -28px; /* Positions it on the left side */
     cursor: pointer;
 }
 

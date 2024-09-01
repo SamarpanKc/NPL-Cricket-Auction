@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #ededed;
+    overflow-x: hidden;
+  }
+  body::-webkit-scrollbar {
+    width: 0px; /* Width of the scrollbar */
+  }
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainbox {
+    background-color: #f7f7f7;
+    width: 32vw;
+    height: 92vh;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-box-shadow: 2px 2px 42px 0px rgba(20, 7, 97, 0.1);
+    -moz-box-shadow: 2px 2px 42px 0px rgba(20, 7, 97, 0.1);
+    box-shadow: 2px 2px 42px 0px rgba(20, 7, 97, 0.1);
+  }
+  /* Main container */
+  .head {
+      display: flex;
+      flex-direction: column; /* Keeps text below logo and icon */
+      align-items: center; /* Center aligns the children horizontally */
+      gap: 16px;
+  }
+  
+  /* Top section containing icon and logo */
+  .head .top {
+      display: flex;
+      align-items: center; /* Vertically center icon and logo */
+      justify-content: center; /* Centers the entire block horizontally */
+      position: relative; /* Allows positioning within this container */
+      width: 100%; /* Takes full width to center the logo */
+  }
+  
+  /* Icon styles */
+  .head .top .icon {
+      position: absolute; /* Allows it to stay at the start of the container */
+      left: -10px; /* Positions it on the left side */
+      cursor: pointer;
+  }
+  
+  /* Logo styles */
+  .head .top .logo {
+      margin: 0 auto; /* Centers the logo horizontally */
+  }
+  
+  /* Logo image styles */
+  .head .top .logo img {
+      width: 90px;
+      mix-blend-mode: multiply;
+  }
+  
+  /* Main text styles */
+  .head .txt {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 28px;
+      color: #140761;
+      font-weight: 700;
+  }
+  
+  /* Subtext styles */
+  .head .subtxt {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 14px;
+      color: #140761;
+      font-weight: 500;
+      margin-top: -4px;
+  }
+  
+  .form{
+      margin: 36px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+  }
+  .form .email, .password{
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 18px;
+     color: #140761;
+     font-weight: 600;
+  }
+  .form .emailForm .input, .passForm .input{
+      width: 24vw;
+      height: 3vh;
+      border: solid 1px #5858589e;
+      padding: 10px;
+      border-radius: 6px;
+      background-color: #f7f7f7;
+      outline: none;
+      margin-top: -6px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+  }
+  .signinBtn .button{
+      width: 25.5vw;
+      height: 6vh;
+      background-color: #e50914;
+      outline: none;
+      border: none;
+      border-radius: 6px;
+      margin-top: -12px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 600;
+      font-size: 17px;
+      cursor: pointer;
+      color: #f7f7f7;
+  }
+  
+  .signinBtn .button:hover{
+      transition: all 0.3s ease-in-out;
+      background: linear-gradient(145deg, #d9080d, #b10509);
+  }
+  
+  .foot{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 400;
+      margin: 0 36px;
+  }
+  .forgot-password,
+  .create-account {
+    color: #140761;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .forgot-password:hover,
+  .create-account:hover {
+    color: #140761;
+  }
+  
+  .no-account {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+
+  hr {
+    border: none; /* Remove default borders */
+    border-top: 2px solid #ddd; /* Add a light grey top border */
+    margin: 12px 0; /* Space above and below the line */
+    height: 1px; /* Set the height */
+    width: 100%; /* Make sure it takes the full width of the container */
+    background-color: #ddd; /* Set a fallback color */
+}
+.foot span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 12px;
+    font-weight: 600;
+    opacity: .8;
+}
+.foot .connectLink{
+    display: grid;
+    grid-template-columns: 80px 80px;
+    gap: 60px;
+}
+
+/* Container for social media icons */
+.connectLink {
+    display: flex; /* Flexbox layout for alignment */
+    justify-content: center; /* Center icons horizontally */
+    gap: 20px; /* Space between icons */
+    align-content: center;
+}
+
+/* Social media icon styles */
+.fb i,
+.google i {
+    color: #555; /* Icon color */
+    font-size: 24px; /* Icon size */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+}
+
+/* Hover effect for social media icons */
+.fb i:hover {
+    color: #3b5998; /* Facebook blue color */
+}
+
+.google i:hover {
+    color: #db4437; /* Google red color */
+}
