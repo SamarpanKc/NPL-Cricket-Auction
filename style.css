@@ -224,7 +224,10 @@ body::-webkit-scrollbar {
   font-weight: bold;
   transition: all 0.3s ease; /* Smooth transition for hover */
 }
-
+.teamCaptain{
+  font-size: .8em;
+  font-weight: 500;
+}
 /* Hover effect for image and name positioning */
 .player-card:hover {
   flex-direction: row; /* Ensures the layout is row on hover */
@@ -241,6 +244,11 @@ body::-webkit-scrollbar {
   font-weight: 700;
   font-size: 24px;
   font-style: italic;
+}
+.player-card:hover .name .teamCaptain{
+  font-size: .5em;
+  font-weight: 500;
+  font-style: normal;
 }
 .topTxt {
   display: flex;
