@@ -1,1 +1,1 @@
-Link for Desktop View only : https://nplcricketauctionsamarpan.netlify.app/ [NPL Cricket Auction]
+Link for Desktop View only : [NPL Cricket Auction](https://nplcricketauctionsamarpan.netlify.app)
