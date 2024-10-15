@@ -175,6 +175,9 @@ body::-webkit-scrollbar {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px; /* Adds spacing between grid items */
 }
+.lists img{
+  border-radius: 20%;
+}
 
 /* Shared card styles */
 .team-card,
@@ -202,6 +205,7 @@ body::-webkit-scrollbar {
   color: #f7f7f7;
   font-size: 24px;
   font-weight: 600;
+  gap: 10px;
 }
 
 /* Player card-specific styles */
@@ -270,4 +274,8 @@ body::-webkit-scrollbar {
 .topTxt a:hover {
   color: #e50914; /* Changes color on hover */
   transform: translateX(5px); /* Adds slight movement on hover */
+}
+.lists img:hover{
+  mix-blend-mode: normal;
+  border-radius: 6px;
 }
